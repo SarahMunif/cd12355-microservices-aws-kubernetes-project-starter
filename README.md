@@ -6,9 +6,11 @@ This service follows a microservice architecture, with APIs split into independe
 
 For this project, you act as a DevOps engineer supporting a team building an API for business analysts. The API provides analytics on user activity in the coworking space. Your role is to create a CI/CD pipeline and deploy the application to Kubernetes.
 ## Infrastructure
-- **Database:** PostgreSQL is used for persistent storage.  
+- **Database:** PostgreSQL.  
 - **Containerization:** Docker is used to package the Python application.  
 - **Orchestration:** Kubernetes manages deployments, services. 
+- **Image Registry:** Amazon ECR
+- **CI/CD:** AWS CodeBuild & GitHub Integration
 - **Configuration:** ConfigMaps store non-sensitive environment variables, and Secrets store sensitive data like database passwords.
 
 ## CI/CD Pipeline
