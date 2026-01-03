@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: first-config
 data:
-  DB_HOST: my-database-service
+  DB_HOST: postgresql-service
   DB_USERNAME: myuser
   DB_NAME: mydatabase
   DB_PORT: "5432"

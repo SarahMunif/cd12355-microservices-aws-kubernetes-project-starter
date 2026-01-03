@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: coworking
-        image: 868746536626.dkr.ecr.us-east-1.amazonaws.com/first-repo:7
+        image: 868746536626.dkr.ecr.us-east-1.amazonaws.com/first-repo:15
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
@@ -51,6 +51,6 @@ spec:
         - name: DB_PASSWORD
           valueFrom:
             secretKeyRef:
-              name: first-config
+              name: first-secret
               key: DB_PASSWORD
       restartPolicy: Always
