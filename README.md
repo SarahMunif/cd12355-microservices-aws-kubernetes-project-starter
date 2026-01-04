@@ -26,6 +26,6 @@ To release a new version:
 1. Push code changes to GitHub.  
 2. CodeBuild builds and pushes the updated Docker image to ECR.  
 
-Ensure IAM roles allow access to ECR and CloudWatch logs.
+Ensure IAM roles allow access to ECR and CloudWatch logs...
 
 
